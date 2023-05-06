@@ -2,7 +2,7 @@
 
 Charles HW Traffic capture
 
-## Ex_0: Сфокусироваться на ниже перечисленных запросах
+## Ex_0: 
 
 Protocol: http
 IP: 162.55.220.72
