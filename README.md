@@ -120,7 +120,9 @@ Task:
 
 Ex_6:
 Method: POST
+
 EndPoint: /user_info_2
+
 request form data: 
  name: str
  age: int
