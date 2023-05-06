@@ -98,7 +98,9 @@ Task:
 
 ## Ex_5:
 Method: GET
+
 EndPoint: /object_info_4
+
 request url params: 
  name: str
  age: int
@@ -125,9 +127,9 @@ EndPoint: /user_info_2
 
 request form data: 
 
-- name: str
-- age: int
-- salary: int
+name: str
+age: int
+salary: int
 
 response: 
 
