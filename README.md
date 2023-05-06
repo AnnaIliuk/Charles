@@ -62,11 +62,11 @@ response:
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
-
+```
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
-
+```
 ==================
 
 Ex_4:
@@ -88,12 +88,12 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
-
+```
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 - Сделать через Charles так, чтобы сервер вернул 500 код.
 - Сделать через Charles так, чтобы сервер вернул 405 код.
-
+```
 ==================
 
 Ex_5:
@@ -109,13 +109,13 @@ response:
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 
-
+```
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
  ⁃ Подменить salary в request
  ⁃ Подменить (salary * 2) в response
-
+```
 ==================
 
 Ex_6:
@@ -137,8 +137,9 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 
-
+```
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
- ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+ ⁃ Сделать так, чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+```
