@@ -2,13 +2,13 @@
 
 Charles HW Traffic capture
 
-Ex_0: Сфокусироваться на ниже перечисленных запросах
+## Ex_0: Сфокусироваться на ниже перечисленных запросах
 
 Protocol: http
 IP: 162.55.220.72
 Port: 5005
 
-Ex_1: 
+## Ex_1: 
 Method: GET
 EndPoint: /get_method
 request url params: 
@@ -28,7 +28,7 @@ Task:
 ```
 ==================
 
-Ex_2:
+## Ex_2:
 Method: POST
 EndPoint: /user_info_3
 request form data: 
@@ -49,7 +49,7 @@ Task:
 ```
 ==================
 
-Ex_3:
+## Ex_3:
 Method: GET
 EndPoint: /object_info_1
 request url params: 
@@ -69,7 +69,7 @@ Task:
 ```
 ==================
 
-Ex_4:
+## Ex_4:
 Method: GET
 EndPoint: /object_info_3
 request url params: 
@@ -96,7 +96,7 @@ Task:
 ```
 ==================
 
-Ex_5:
+## Ex_5:
 Method: GET
 EndPoint: /object_info_4
 request url params: 
@@ -118,7 +118,7 @@ Task:
 ```
 ==================
 
-Ex_6:
+## Ex_6:
 Method: POST
 
 EndPoint: /user_info_2
@@ -130,6 +130,7 @@ request form data:
 - salary: int
 
 response: 
+
 {'start_qa_salary': salary,
           - 'qa_salary_after_6_months': salary * 2,
           - 'qa_salary_after_12_months': salary * 2.7,
